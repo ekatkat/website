@@ -37,6 +37,7 @@ p {
 p.two {
   font-family: "myFontItl", arial, sans-serif;
   font-style: italic;
+  font-size: 4vw;
 }
   
 .button {
