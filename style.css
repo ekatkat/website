@@ -1,11 +1,99 @@
 /* CSS files add styling rules to your content */
-
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+@font-face {
+  font-family: "myFont";
+  src: url("https://cdn.glitch.com/399d61b7-1170-4595-a6df-6e417fad9f29%2FQuicksand-Regular.otf?v=1605478564328");
+}
+@font-face {
+  font-family: "myFontItl";
+  src: url("https://cdn.glitch.com/399d61b7-1170-4595-a6df-6e417fad9f29%2FQuicksand-BoldItalic.otf?v=1605478590240");
+}
+.spring {
+  font-family: "myFont", arial, sans-serif;
+  color: pink;
+  font-size: 40px;
+  text-align: center;
 }
 
-h1 {
+header {
+  border-style: double;
+  border-width: 15px;
+  border-color: gold;
+  background-image:url("https://cdn.glitch.com/399d61b7-1170-4595-a6df-6e417fad9f29%2F2r5w.gif?v=1605480094467");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  font-family: "myFont", arial, sans-serif;
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+}
+p {
+  text-align: center;
+  padding: 5px;
+  margin: 10vx;
+  font-size: 20px;
+}
+p.two {
+  font-family: "myFontItl", arial, sans-serif;
   font-style: italic;
-  color: #373fff;
+}
+  
+.button {
+  text-decoration: none;
+  color: white;
+  float: center;
+  background: gold;
+  padding:0.5em 0.5em;
+  border: 1em double #daa520;
+  text-align:center;
+}
+.button:visited {
+  color: white;
+}
+.button:hover{
+ background: #f8de7e;
+ border-color: #e5aa70; 
+}
+
+img.image1 {
+  width: 80%;
+  height: auto;
+  opacity: 0.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5vh;
+}
+img.image2 {
+  width: 80%;
+  height: auto;
+  opacity: 0.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5vh;
+}
+img.image3 {
+  width: 80%;
+  height: auto;
+  opacity: 0.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5vh;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.two {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.aaa {
+  background: #ffe4e1;
 }
